@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="AFULKI — Amazigh streetwear. Découvrez notre collection.">
+<title>AFULKI — Amazigh Streetwear</title>
+<style>
+:root{--bg:#0b0b0b;--panel:#151515;--text:#f7f7f7;--muted:#b9b9b9;--line:#303030;--accent:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif}
+a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;background:#0b0b0bf2;border-bottom:1px solid var(--line);z-index:5;backdrop-filter:blur(12px)}
+.nav{height:70px;display:flex;align-items:center;justify-content:space-between;gap:16px}.logo{font-weight:900;letter-spacing:.18em;font-size:22px}.nav small{color:var(--muted);letter-spacing:.12em}
+.btn{display:inline-block;border:1px solid white;padding:12px 18px;font-weight:700;cursor:pointer;background:white;color:#111;border-radius:2px}.btn.ghost{background:transparent;color:white}.hero{min-height:470px;display:grid;grid-template-columns:1.1fr .9fr;gap:32px;align-items:center;padding:54px 0}
+.kicker{font-size:12px;letter-spacing:.24em;color:var(--muted);text-transform:uppercase}.hero h1{font-size:clamp(42px,7vw,82px);line-height:.95;letter-spacing:-.06em;margin:18px 0}.hero p{max-width:470px;color:#c8c8c8;line-height:1.7}.hero-art{min-height:330px;border:1px solid #383838;background:radial-gradient(ellipse at 50% 40%,#303030 0,#171717 42%,#0d0d0d 75%);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+.shirt{width:210px;height:250px;background:#050505;clip-path:polygon(25% 0,39% 8%,61% 8%,75% 0,100% 18%,83% 42%,72% 34%,72% 100%,28% 100%,28% 34%,17% 42%,0 18%);filter:drop-shadow(0 18px 22px #000);display:flex;align-items:center;justify-content:center}
+.symbol{font-size:58px;color:white;font-weight:900;transform:rotate(0deg);margin-top:25px}.art-label{position:absolute;bottom:18px;left:18px;font-size:11px;letter-spacing:.18em;color:#aaa}
+section{padding:48px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:16px;margin-bottom:22px}.section-head h2{font-size:30px;margin:8px 0}.muted{color:var(--muted);line-height:1.6}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.product{border:1px solid var(--line);background:var(--panel)}.product-art{height:230px;background:linear-gradient(145deg,#242424,#0e0e0e);display:flex;align-items:center;justify-content:center}.mini-shirt{width:120px;height:150px;background:#050505;clip-path:polygon(25% 0,39% 8%,61% 8%,75% 0,100% 18%,83% 42%,72% 34%,72% 100%,28% 100%,28% 34%,17% 42%,0 18%);display:flex;align-items:center;justify-content:center}.mini-shirt.light{background:#e8e8e8}.mini-shirt span{font-weight:900;color:white;font-size:28px;margin-top:18px}.mini-shirt.light span{color:#111}.product-info{padding:16px}.product-info h3{margin:0 0 7px}.price{font-weight:800;font-size:18px}.product-info p{font-size:13px;color:var(--muted);min-height:34px;line-height:1.5}.product-info .btn{width:100%;text-align:center;margin-top:8px}
+.about{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:#101010}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:center}.about h2{font-size:34px;line-height:1.05}.pill{display:inline-block;border:1px solid #555;padding:8px 10px;margin:4px 4px 0 0;font-size:12px;color:#ddd}
+form{display:grid;gap:12px;max-width:650px}label{font-size:13px;color:#ddd}input,select,textarea{width:100%;margin-top:6px;padding:13px;background:#101010;color:white;border:1px solid #454545;border-radius:2px;font:inherit}textarea{min-height:90px;resize:vertical}.order{display:grid;grid-template-columns:1fr 1fr;gap:12px}.order .full{grid-column:1/-1}.notice{font-size:12px;color:var(--muted)}footer{padding:28px 0;color:#aaa;font-size:12px;border-top:1px solid var(--line)}.foot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+@media(max-width:720px){.hero{grid-template-columns:1fr;padding:38px 0}.hero-art{min-height:290px}.grid{grid-template-columns:1fr 1fr}.product-art{height:190px}.about-grid{grid-template-columns:1fr}.nav small{display:none}}
+@media(max-width:460px){.grid{grid-template-columns:1fr}.product-art{height:230px}.order{grid-template-columns:1fr}.order .full{grid-column:auto}.nav{height:62px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav"><a class="logo" href="#">AFULKI</a><small>AMAZIGH STREETWEAR</small><a class="btn ghost" href="#collection">Collection</a></div></header>
+<main>
+<div class="wrap hero">
+  <div><div class="kicker">Identité • Culture • Streetwear</div><h1>WEAR<br>YOUR ROOTS.</h1><p>تراث أمازيغي بروح عصرية. اكتشف ستايل AFULKI، مستوحى من الهوية الأمازيغية ومصمم للحياة اليومية.</p><a class="btn" href="#collection">DÉCOUVRIR LA COLLECTION</a></div>
+  <div class="hero-art" aria-label="Illustration d'un t-shirt noir"><div class="shirt"><span class="symbol">ⵣ</span></div><div class="art-label">AFULKI / DROP 001</div></div>
+</div>
+<section id="collection"><div class="wrap"><div class="section-head"><div><div class="kicker">DROP 001</div><h2>La collection</h2><div class="muted">تيشورتات أوفر سايز أمازيغية — 149 درهم للقطعة.</div></div></div>
+<div class="grid">
+<article class="product"><div class="product-art"><div class="mini-shirt"><span>ⵣ</span></div></div><div class="product-info"><h3>T-shirt Tazerzit — Noir</h3><div class="price">149 DH</div><p>Coupe oversize · Noir · Impression blanche</p><a class="btn" href="#commander" onclick="chooseProduct('T-shirt Tazerzit — Noir')">Commander</a></div></article>
+<article class="product"><div class="product-art"><div class="mini-shirt light"><span>AF</span></div></div><div class="product-info"><h3>T-shirt Amazigh — Blanc</h3><div class="price">149 DH</div><p>Coupe oversize · Blanc · Logo minimal</p><a class="btn" href="#commander" onclick="chooseProduct('T-shirt Amazigh — Blanc')">Commander</a></div></article>
+<article class="product"><div class="product-art"><div class="mini-shirt"><span>AF</span></div></div><div class="product-info"><h3>T-shirt Tazerzit — Noir (Signature)</h3><div class="price">149 DH</div><p>Coupe oversize · Noir · Symbole amazigh</p><a class="btn" href="#commander" onclick="chooseProduct('T-shirt Tazerzit — Noir (Signature)')">Commander</a></div></article>
+</div></div></section>
+<section class="about"><div class="wrap about-grid"><div><div class="kicker">Notre identité</div><h2>Plus qu'un vêtement.<br>Une culture.</h2></div><div><p class="muted">AFULKI associe l'héritage amazigh à une esthétique streetwear contemporaine. Chaque pièce raconte une histoire : la tienne, la nôtre, nos racines.</p><span class="pill">Amazigh roots</span><span class="pill">Oversize fit</span><span class="pill">Minimal design</span></div></div></section>
+<section id="commander"><div class="wrap"><div class="kicker">Commande</div><h2>Commander un article</h2><p class="muted">عمّر المعلومات، وغادي يتحل ليك WhatsApp برسالة الطلب. الثمن 149 درهم للتيشورت.</p>
+<form id="orderForm"><div class="order">
+<div><label for="name">Nom complet *</label><input id="name" required placeholder="Votre nom"></div>
+<div><label for="phone">Téléphone *</label><input id="phone" required inputmode="tel" placeholder="06XXXXXXXX"></div>
+<div><label for="city">Ville *</label><input id="city" required placeholder="Ex. Agadir"></div>
+<div><label for="size">Taille *</label><select id="size" required><option value="">Choisir une taille</option><option>S</option><option>M</option><option>L</option><option>XL</option><option>XXL</option></select></div>
+<div class="full"><label for="product">Produit *</label><select id="product" required><option value="">Choisir un produit</option><option>T-shirt Tazerzit — Noir</option><option>T-shirt Amazigh — Blanc</option><option>T-shirt Tazerzit — Noir (Signature)</option></select></div>
+<div class="full"><label for="address">Adresse de livraison *</label><textarea id="address" required placeholder="Quartier, rue, détails de livraison"></textarea></div>
+<div class="full"><button class="btn" type="submit">Envoyer la commande sur WhatsApp</button><div class="notice">Aucun paiement n'est traité sur ce site. Confirmez les frais de livraison avec le vendeur.</div></div>
+</div></form></div></section>
+</main>
+<footer><div class="wrap foot"><span>© AFULKI — Amazigh Streetwear</span><span>Instagram : ajoute ton lien ici</span></div></footer>
+<script>
+const WHATSAPP_NUMBER = "212698491527"; // WhatsApp AFULKI, format international sans + ni espaces.
+function chooseProduct(name){document.getElementById('product').value=name;}
+document.getElementById('orderForm').addEventListener('submit',function(e){
+ e.preventDefault();
+ const v=id=>document.getElementById(id).value.trim();
+ const msg=`Salam AFULKI, je souhaite commander :\nProduit : ${v('product')}\nTaille : ${v('size')}\nNom : ${v('name')}\nTéléphone : ${v('phone')}\nVille : ${v('city')}\nAdresse : ${v('address')}`;
+ if(!WHATSAPP_NUMBER){alert("Ajoutez le numéro WhatsApp du magasin dans le code.");return;}
+ window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`,'_blank');
+});
+</script>
+</body>
+</html>
